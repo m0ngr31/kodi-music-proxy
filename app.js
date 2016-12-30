@@ -27,6 +27,6 @@ app.get('/proxy', function(req, res, next) {
   return req.pipe(download).pipe(res);
 });
 
-app.listen(3000, function () {
+app.listen(process.env.PORT || 5000, function () {
   console.log('Kodi Music Proxy listening on port 3000.')
 });
