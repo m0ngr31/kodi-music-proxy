@@ -1,0 +1,14 @@
+{
+  "name": "kodi-music-proxy",
+  "version": "1.0.0",
+  "description": "HTTPS proxy for playing HTTP based files from local Kodi boxes on an Amazon Alexa device.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Ipson <joe@m0ngr31.us> (http://m0ngr31.us/)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
