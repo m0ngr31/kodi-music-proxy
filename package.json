@@ -9,6 +9,7 @@
   "author": "Joe Ipson <joe@m0ngr31.us> (http://m0ngr31.us/)",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "request": "^2.79.0"
   }
 }
