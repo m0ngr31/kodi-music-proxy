@@ -25,7 +25,9 @@ app.get('/proxy', function(req, res, next) {
   var file = queryData.file;
   var download = request(file);
 
-  return req.pipe(download).pipe(res);
+  return req.pipe(download).on('response', function(res) {
+    res.headers['Content-Type'] = 'audio';
+  }).pipe(res);
 });
 
 app.listen(process.env.PORT || 5000);
