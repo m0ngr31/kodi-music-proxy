@@ -1,4 +1,4 @@
-dvar express = require('express');
+var express = require('express');
 var url = require('url');
 var request = require('request');
 var app = express();
