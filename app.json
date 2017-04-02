@@ -1,0 +1,8 @@
+{
+  "name": "Kodi-Alexa HTTPS Proxy",
+  "description": "A simple HTTPS proxy for serving HTTP files over HTTPS to use with the Kodi-Alexa skill.",
+  "repository": "https://github.com/m0ngr31/kodi-music-proxy",
+  "logo": "http://i.imgur.com/BaBCo1t.png",
+  "keywords": ["kodi", "alexa", "node"],
+  "website": "https://github.com/m0ngr31/kodi-music-proxy"
+}
