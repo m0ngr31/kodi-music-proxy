@@ -22,7 +22,7 @@ app.get('/proxy', function(req, res, next) {
   if(!queryData.file)
     return next();
 
-  var file = queryData.file;
+  var file = encodeURI(queryData.file);
   var download = request(file);
 
   return req.pipe(download).on('response', function(res) {
